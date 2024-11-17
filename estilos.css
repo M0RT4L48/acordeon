@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    margin: auto;
+    max-width: 1200px;
+}
+.container {
+    display: flex;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 100px;
+    /* border: 1px red solid; */
+}
+.preguntas, .skills {
+    width: 50%;
+}
+.preguntas h2, .skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.faq {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 39px;
+    border-bottom: 1px rgba(0, 0, 255, 0.166) solid;
+}
+.faq i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+.faq p {
+    margin: 0;
+}
+.info {
+    display: none;
+    margin-left: 28px;
+    max-width: 600px;
+}
+
+.skill {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.skill-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.progress-bar {
+    height: 6px;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+}
+.progress {
+    height: 6px;
+    border-radius: 3px;
+}
+.branding { width: 90%; background-color: #0000ff; }
+.web-design { width: 65%; background-color: #ffc107; }
+.copywriting { width: 100%; background-color: #ff0000; }
+.video-production { width: 75%; background-color: #00ff00; }
+
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    height: 50px;
+}

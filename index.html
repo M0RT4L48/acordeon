@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/725c679a77.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <!-- FAQ Section -->
+    <div class="preguntas">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq">
+            <i class="fa-solid fa-square-plus" style="color: #6941e1;"></i>
+            <p>Do you provide any scripts with your templates?</p>
+        </div>
+        <div class="info">
+            <p>Our templates do not include any additional scripts. Newsletter subscriptions, search fields, forums, image
+              galleries
+              (in HTML versions of Flash products) are inactive. Basic scripts can be easily added at www.zemez.io If you
+              are not sure
+              that the element you’re interested in is active please contact our Support Chat for clarification.</p>
+          </div>
+
+
+        <div class="faq">
+            <i class="fa-solid fa-square-plus" style="color: #6941e1;"></i>
+            <p>What do I receive when I order a template?</p>
+        </div>
+        <div class="info">
+            <p>After you complete the payment via our secure form you will receive the instructions for downloading the
+              product. The
+              source files in the download package can vary based on the type of the product you have purchased.</p>
+          </div>
+
+
+
+        <div class="faq">
+            <i class="fa-solid fa-square-plus" style="color: #6941e1;"></i>
+            <p>In what formats are your templates available?</p>
+        </div>
+        <div class="info">
+            <p>Website templates are available in Photoshop and HTML formats. Fonts are included with the Photoshop file.
+              In most
+              templates, HTML is compatible with Adobe® Dreamweaver® and Microsoft® FrontPage®.</p>
+          </div>
+
+
+
+        <div class="faq">
+            <i class="fa-solid fa-square-plus" style="color: #6941e1;"></i>
+            <p>What am I allowed to do with the templates?</p>
+        </div>
+        <div class="info">
+            <p>You may build a website using the template in any way you like. You may not resell or redistribute
+              templates (like we
+              do); claim intellectual or exclusive ownership to any of our products, modified or unmodified. All products
+              are property
+              of content providing companies and individuals.</p>
+          </div>
+
+
+    </div>
+
+    <!-- Skills Section -->
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <div class="skill-label">
+                <span>Branding</span>
+                <span>90%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress branding"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-label">
+                <span>Web Design</span>
+                <span>65%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress web-design"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-label">
+                <span>Copywriting</span>
+                <span>100%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress copywriting"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-label">
+                <span>Video Production</span>
+                <span>75%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress video-production"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Manuel Moises Aguilar Manzano</p>
+</footer>
+<script>
+    $(".faq").click(function () {
+      var t = $(this);
+      var tp = t.next();
+      tp.slideToggle();
+    });
+  </script>
+</body>
+</html>
